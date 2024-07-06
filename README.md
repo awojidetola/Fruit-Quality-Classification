@@ -12,10 +12,11 @@ The data used for this project was gotten from Kaggle and is credited to Muhamma
 | Pomegranate | Potato | Strawberry | Tomato | Cucumber |
 | Apple | Banana | Ballpepper | Carrot |  |
 
+### Preview of data
 
 ![preview](https://github.com/awojidetola/Fruit-Quality-Classification/assets/49078266/3d5d1958-e1de-4293-863f-bf9a44b83bcb)
 
-### Transformation
+### Data Transformation
 The data was divided into three parts: Training Set, Validation Set and Testing Set in the ratio: 70%, 20% and 10%. The model was trained on the training data and accessed using the validation set. The test data was used to access the model performance on new data. 
 The images were transformed by:
 - Resizing them to a uniform size
@@ -25,7 +26,7 @@ The images were transformed by:
 ## Modelling
 The **ResNet50** model was applied to train the data using the SGD optimizer. The model has an accuracy of 91.3% on the training set and 90.99% on the test set. 
 
-
+### Model Performance
 ![prediction](https://github.com/awojidetola/Fruit-Quality-Classification/assets/49078266/59771c85-70a2-4ea3-a9d9-5fb78a06cdd2)
 
 ## Deployment 
