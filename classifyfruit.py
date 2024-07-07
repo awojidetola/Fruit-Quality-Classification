@@ -64,6 +64,9 @@ if uploaded_file is not None:
     new_image = image.resize((350,350))
     st.image(new_image, caption='Uploaded Image')
     st.write("")
+else:
+    image = ""
+    st.write("Kindly upload the file")
 
 if st.button ("Submit"):
     st.write("Classifying...")
