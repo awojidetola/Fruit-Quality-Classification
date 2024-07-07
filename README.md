@@ -33,6 +33,10 @@ The **ResNet50** model was applied to train the data using the SGD optimizer. Th
 ### Deployed Application
 The app has been deployed to sreamlit here : https://fruit-quality-classification.streamlit.app/
 
+**Demo**
+
+https://github.com/awojidetola/Fruit-Quality-Classification/assets/49078266/d8924062-9957-44f6-8774-3ebcde64570e
+
 ### Deploy Locally
 
 clone the repo
