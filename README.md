@@ -6,17 +6,17 @@ This project applies the use of Image Classification to identify popular fruits 
 ## Dataset
 The data used for this project was gotten from Kaggle and is credited to Muhammad Subhan. (2024). The data contains over 29000 images of 14 different fruits which were classified as healthy or rotten. The fruits and vegetables currently present in the dataset are:
 
-|------|---------:|-------|
-| Apple| Banana	  | Ballpepper |
-| Carrot|  Cucumber|   Grape|
-| Guava| Jujube|    Mango|
-| Orange| Pomegranate|    Potato|
-| Strawberry| Tomato|    |
+|  |  |  |  |  |
+|---|---|---|---|---|
+| Grape | Guava | Jujube | Mango | Orange |
+| Pomegranate | Potato | Strawberry | Tomato | Cucumber |
+| Apple | Banana | Ballpepper | Carrot |  |
 
- (Put Image of Fruit here)
+### Preview of data
 
+![preview](https://github.com/awojidetola/Fruit-Quality-Classification/assets/49078266/3d5d1958-e1de-4293-863f-bf9a44b83bcb)
 
-### Transformation
+### Data Transformation
 The data was divided into three parts: Training Set, Validation Set and Testing Set in the ratio: 70%, 20% and 10%. The model was trained on the training data and accessed using the validation set. The test data was used to access the model performance on new data. 
 The images were transformed by:
 - Resizing them to a uniform size
@@ -26,10 +26,10 @@ The images were transformed by:
 ## Modelling
 The **ResNet50** model was applied to train the data using the SGD optimizer. The model has an accuracy of 91.3% on the training set and 90.99% on the test set. 
 
-(Put Image of Performance here)
+### Model Performance
+![prediction](https://github.com/awojidetola/Fruit-Quality-Classification/assets/49078266/59771c85-70a2-4ea3-a9d9-5fb78a06cdd2)
 
 ## Deployment 
-
 
 ## References
 - Muhammad Subhan. (2024). Fruit and Vegetable Disease (Healthy vs Rotten) [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/8463025
