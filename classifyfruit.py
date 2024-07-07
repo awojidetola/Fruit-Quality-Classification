@@ -65,16 +65,12 @@ if uploaded_file is not None:
     st.image(new_image, caption='Uploaded Image')
     st.write("")
 else:
-    image = ""
     st.write("Kindly upload the file")
 
 if st.button ("Submit"):
-    st.write("Classifying...")
-    label = predict_image(image, model)
-    st.subheader(f'The image is classified as: {class_names[label]}')
+    if uploaded_file is not None:
+        st.write("Classifying...")
+        label = predict_image(image, model)
+        st.subheader(f'The image is classified as: {class_names[label]}')
 
 st.link_button("Github Repository", "https://github.com/awojidetola/Fruit-Quality-Classification")
-
-
-#if st.button('GitHub Link'):
- #   st.write("[GitHub Repository](https://github.com/awojidetola/Fruit-Quality-Classification)")
