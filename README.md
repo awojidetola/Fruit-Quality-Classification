@@ -30,6 +30,33 @@ The **ResNet50** model was applied to train the data using the SGD optimizer. Th
 <img src="https://github.com/awojidetola/Fruit-Quality-Classification/assets/49078266/59771c85-70a2-4ea3-a9d9-5fb78a06cdd2" data-canonical-src="https://github.com/awojidetola/Fruit-Quality-Classification/assets/49078266/59771c85-70a2-4ea3-a9d9-5fb78a06cdd2" width="500" height="500" />
 
 ## Deployment 
+### Deployed Application
+The app has been deployed to sreamlit here : https://fruit-quality-classification.streamlit.app/
+
+### Deploy Locally
+
+clone the repo
+```bash
+git clone https://github.com/awojidetola/Fruit-Quality-Classification.git
+```
+create a virtual environment
+```bash
+python -m venv .venv
+```
+
+```bash
+.venv/Scripts/activate.bat
+```
+install the requirements
+
+```bash
+pip install -r requirements.txt
+```
+run the application
+
+```bash
+streamlit run classifyfruit.py
+```
 
 ## References
 - Muhammad Subhan. (2024). Fruit and Vegetable Disease (Healthy vs Rotten) [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/8463025
